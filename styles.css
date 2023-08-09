@@ -119,6 +119,7 @@ img[src*="images/SE.svg"]{
 .second-container p{
     max-width: 43.5rem;
     color: #2B4625;
+    text-align: justify;
 }
 .extra p{
     margin: 8px 0px 8px 0;
@@ -131,8 +132,9 @@ img[src*="images/SE.svg"]{
 .third-container-info{
     max-width: 1440px;
     margin: auto;
-    padding-inline: 5%;
-    padding-block: 10rem;
+    padding-inline: 8.6%;
+    padding-block: 5rem;
+
     
 }
 .third-container-info h4{
@@ -229,6 +231,7 @@ img[src*="images/SE.svg"]{
     max-width: 1440px;
     margin: auto;
     padding-block: 5rem;
+    padding-inline: 5%;
 }
 .fourth-info img{
     width: 100%;
@@ -317,5 +320,5 @@ footer{
     background: linear-gradient(90deg, rgba(217, 217, 217, 0.00) 0%, #F9F9F9 48.44%, rgba(217, 217, 217, 0.00) 100%);
     padding-block: 1.41rem;
     text-align: right;
-    padding-right: 10%;
+    padding-right: 20%;
 }
