@@ -38,19 +38,22 @@ p{
     margin-block: 0.5rem 1.5rem;
 }
 
-
+.for-header{
+    margin-inline: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .landing-page{
     background-color: #2B4625;
     /* position: relative; */
 }
 header{
-    padding-inline: 5%;
-    padding-block: 3.17rem;
     max-width: 1440px;
+    padding-block: 3.17rem;
+    
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
 }
 a{
     font-family: Poppins;
@@ -79,14 +82,21 @@ button{
     display: flex;
     gap: 1rem;
 }
-.first-container{
-    padding-inline: 5%;
+.first-0f-kind{
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto;
+    /* padding-inline: 8.61%; */
+    
+}
+.first-container{
+    
+    margin-inline: 5%;
     align-items: center;
     justify-content: space-between;
     display: flex;
+    gap: 3rem;
     padding-bottom: 10rem;
+    
 
 }
 nav{
@@ -110,11 +120,15 @@ img[src*="images/SE.svg"]{
     right: 16%;
 }
 /* SECOND CONTAINER */
+
 .second-container{
     max-width: 1440px;
-    padding-inline: 5%;
+    
     margin: auto;
     padding-block: 5rem;
+}
+.for-second{
+    margin-inline: 5%;
 }
 .second-container p{
     max-width: 43.5rem;
@@ -125,14 +139,17 @@ img[src*="images/SE.svg"]{
     margin: 8px 0px 8px 0;
     padding-left: 5%;
 }
+/* THIRD CONTAINER  */
 .third-container{
     background-color: #ABC337;
     position: relative;
 }
-.third-container-info{
-    max-width: 1440px;
+.for-third{
     margin: auto;
-    padding-inline: 8.6%;
+    max-width: 1440px;
+}
+.third-container-info{
+    margin-inline: 5%;
     padding-block: 5rem;
 
     
@@ -149,7 +166,9 @@ img[src*="images/SE.svg"]{
     align-items: center;
     gap: 3rem;
     flex-wrap: wrap;
-    
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem; */
     
 }
 .information{
@@ -227,11 +246,13 @@ img[src*="images/SE.svg"]{
 .fourth-container{
     background-color: #e1e1e4;
 }
-.fourth-info{
+.for-fourth{
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto;
     padding-block: 5rem;
-    padding-inline: 5%;
+}
+.fourth-info{
+    margin-inline: 5%;
 }
 .fourth-info img{
     width: 100%;
@@ -241,11 +262,15 @@ img[src*="images/SE.svg"]{
 .fifth-container{
     background-color: #2B4625;
 }
-.fifth-container-info{
-    padding-block: 5%;
-    padding-inline: 5%;
+.for-fifth{
     max-width: 1440px;
     margin: auto;
+}
+.fifth-container-info{
+    padding-block: 5rem;
+    margin-inline: 5%;
+    
+    
     display: flex;
     
     align-items: center;
@@ -254,13 +279,14 @@ img[src*="images/SE.svg"]{
 }
 .first-section1{
     max-width: 38.75rem;
+    margin-right: 5rem;
 }
 .first-section1 h2{
     color: #FFF;
 }
 form{
-    width: 50%;
-    /* max-width: 27.86rem; */
+    width: 40%;
+    /* width: 27.86rem; */
     display: flex;
     flex-direction: column;
     gap: 0.97rem;
@@ -283,15 +309,20 @@ input::placeholder{
     font-family: Poppins;
     color: #BFBFBF;
 }
+/* FOOTER */
 footer{
     background-color: #F1F1F1;
     padding-bottom: 5rem;
 }
-.footer-info{
+.for-footer{
     max-width: 1440px;
+    margin: auto;
+}
+.footer-info{
+    
     padding-inline: 5%;
     padding-block: 4rem;
-    margin: auto;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -320,5 +351,5 @@ footer{
     background: linear-gradient(90deg, rgba(217, 217, 217, 0.00) 0%, #F9F9F9 48.44%, rgba(217, 217, 217, 0.00) 100%);
     padding-block: 1.41rem;
     text-align: right;
-    padding-right: 20%;
+    padding-right: 10%;
 }
