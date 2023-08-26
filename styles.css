@@ -119,16 +119,22 @@ img[src*="images/SE.svg"]{
     top: 20%;
     right: 16%;
 }
+
 /* SECOND CONTAINER */
 
 .second-container{
+    position: relative;
     max-width: 1440px;
-    
     margin: auto;
-    padding-block: 5rem;
+}
+img[src*="afrik"]{
+    position: absolute;
+    right: 0;
+    height: 120%;
 }
 .for-second{
     margin-inline: 5%;
+    padding-block: 5rem;
 }
 .second-container p{
     max-width: 43.5rem;
@@ -262,7 +268,13 @@ img[src*="images/SE.svg"]{
 .fifth-container{
     background-color: #2B4625;
 }
+img[src*="afrika"]{
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
 .for-fifth{
+    position: relative;
     max-width: 1440px;
     margin: auto;
 }
@@ -273,7 +285,7 @@ img[src*="images/SE.svg"]{
     
     display: flex;
     
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     gap: 6rem;
 }
