@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -12,19 +11,19 @@ h1{
 }
 h2{
     color: #2B4625;
-    font-family: poppins;
+    font-family: Syne;
     font-size: 3.4375rem;
     font-weight: 700;
 }
 h3{
     color: #FFF;
-    font-family: Poppins;
+    font-family: Syne;
     font-size: 2.75rem;
     font-weight: 700;
 }
 h4{
     color: #ABC337;
-    font-family: Poppins;
+    font-family: Syne;
     font-size: 0.875rem;
     font-weight: 700;
     letter-spacing: 0.0875rem;
@@ -32,7 +31,7 @@ h4{
 p{
     color: #FFF;
     
-    font-family: Poppins;
+    font-family: Syne;
     font-size: 1.4375rem;
     font-weight: 400;
     margin-block: 0.5rem 1.5rem;
@@ -56,13 +55,14 @@ header{
     
 }
 a{
-    font-family: Poppins;
+    font-family: Syne;
     font-size: 1.125rem;
     font-weight: 400;
     color: #FFF;
     text-decoration: none;
 }
 button{
+    font-style: syne;
     border-radius: 2.68rem;
     background: #ABC337;
     color: #FFF;
@@ -187,6 +187,7 @@ img[src*="afrik"]{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 8px;
     /* padding-inline: 10%; */
 }
 /* .information {
@@ -207,6 +208,7 @@ img[src*="afrik"]{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 8px;
     /* padding-inline: 10%; */
 }
 .information2{
@@ -220,6 +222,7 @@ img[src*="afrik"]{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 8px;
     /* padding-inline: 4.8%; */
 }
 .information3{
@@ -233,6 +236,7 @@ img[src*="afrik"]{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 8px;
     /* padding-inline: 10%; */
 }
 .information4{
@@ -246,6 +250,7 @@ img[src*="afrik"]{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 8px;
     /* padding-inline: 10%; */
 }
 /* FOURTH SECTION */
@@ -332,7 +337,7 @@ footer{
 }
 .footer-info{
     
-    padding-inline: 5%;
+    margin-inline: 5%;
     padding-block: 4rem;
     
     display: flex;
@@ -342,7 +347,7 @@ footer{
     width: 70%;
     justify-content: right;
     display: flex;
-    gap: 20%;
+    gap: 2.5rem;
 }
 .company p{
     color: #616161;
@@ -364,4 +369,122 @@ footer{
     padding-block: 1.41rem;
     text-align: right;
     padding-right: 10%;
+}
+@media screen and (max-width: 800px){
+    header img{
+        width: 4.4rem;
+    }
+    p{
+        font-size: 0.875rem;
+    }
+    h1{
+        font-size: 2rem;
+        margin: 0px;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    header{
+        padding-block: 1.5rem;
+    }
+    button{
+        padding: 0.5rem 1.5rem;
+        font-size: 0.875rem;
+    }
+    .select-section{
+        gap: 0.5rem;
+    }
+    nav, header .select-section{
+        display: none;
+    }
+    .first-container{
+        padding-bottom: 3rem;
+    }
+    .second-c{
+        display: none;
+    }
+    .for-second{
+        padding-block: 2rem;
+    }
+    .third-container-info{
+        padding-block: 2rem;
+    }
+    .information{
+        height: 11rem;
+        justify-content: left;
+        padding: 1.44rem;
+        width: 100%;
+        background-size: cover;
+    }
+    .information1{
+        height: 11rem;
+        justify-content: left;
+        padding: 1.44rem;
+        width: 100%;
+        background-size: cover;
+    }
+    .information2{
+        height: 11rem;
+        justify-content: left;
+        padding: 1.44rem;
+        width: 100%;
+        background-size: cover;
+    }
+    .information3{
+        height: 11rem;
+        justify-content: left;
+        padding: 1.44rem;
+        width: 100%;
+        background-size: cover;
+    }
+    .information4{
+        height: 11rem;
+        justify-content: left;
+        padding: 1.44rem;
+        width: 100%;
+        background-size: cover;
+    }
+    .W-W-E-info {
+        gap: 1.2rem;
+    }
+    .for-fourth{
+        padding-block: 1rem;
+    }
+    .information1 br{
+        display: none;
+    }
+    .fifth-container-info{
+        padding-block: 1rem;
+        position: relative;
+        z-index: 100;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    img[src*="afrika"]{
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .footer-info{
+        flex-wrap: wrap;
+    }
+    .company-help{
+        justify-content: space-between;
+    }
+    .company{
+        max-width: 17rem;
+    }
+
+    img[src*="Capital"]{
+        width: 4.5rem;
+    }
+
+    form{
+        width: 100%;
+    }
 }
